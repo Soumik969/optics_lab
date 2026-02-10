@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment: Motion Induced Blindness</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Removes scrollbars on the main page */
+        }
+        .container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+        }
+        iframe {
+            flex: 1; /* Makes both sides equal width */
+            height: 100%;
+            border: none;
+        }
+        .left-panel {
+            border-right: 4px solid #ccc; /* Adds a grey divider line */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <iframe class="left-panel" 
+            src="https://docs.google.com/forms/d/e/1FAIpQLSevU84vgKckyf4X8cbK-xaNZ53a6WXOJX6M-o16kajntBVMdQ/viewform?embedded=true">
+        </iframe>
+
+        <iframe 
+            src="https://michaelbach.de/ot/mot-mib/index.html">
+        </iframe>
+    </div>
+
+</body>
+</html>
