@@ -16,3 +16,11 @@ The experiment page is split into two panels:
 ## Deployment
 
 This project is automatically deployed to **GitHub Pages** via the workflow in `.github/workflows/static.yml`. Any push to the `main` branch triggers a new deployment.
+
+### First-Time Setup
+
+Before the workflow can deploy, you must enable GitHub Pages in your repository settings:
+
+1. Go to **Settings** → **Pages**
+2. Under **Source**, select **GitHub Actions**
+3. Push a commit to `main` (or re-run the workflow) to trigger the first deployment
